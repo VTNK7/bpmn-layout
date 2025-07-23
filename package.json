@@ -1,8 +1,9 @@
 {
-  "name": "bpmn-auto-layout",
-  "version": "1.0.1",
-  "description": "Layout BPMN diagrams, generating missing DI information",
+  "name": "bpmn-layout",
+  "version": "1.0.0",
+  "description": "Layout BPMN diagrams, generating missing DI information, and lanes",
   "type": "module",
+  "private": true,
   "exports": {
     ".": {
       "import": "./dist/index.js",
